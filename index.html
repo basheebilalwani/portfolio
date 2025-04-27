@@ -6,108 +6,134 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bashee Bilal | Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 
-<body class="bg-gray-50 text-gray-800">
-  <!-- Header -->
-  <header class="bg-white shadow-md py-6">
-    <div class="container mx-auto text-center">
-      <h1 class="text-4xl font-bold">Bashee Bilal</h1>
-      <p class="text-lg mt-2">Crafting engaging web experiences with passion and precision</p>
+<body class="flex bg-gray-100 text-gray-800">
+
+  <!-- Sidebar Navbar -->
+  <nav class="w-64 min-h-screen bg-gray-800 text-white p-6 fixed top-0 flex flex-col">
+    <img src="" alt="Profile Photo" class="w-24 h-24 rounded-full mx-auto mb-4 mt-4 border-4 border-blue-500">
+    <h1 class="text-2xl font-bold mb-8">Bashee Bilal</h1>
+    <ul class="space-y-4">
+      <li><a href="#home" class="hover:text-gray-400">Home</a></li>
+      <li><a href="#about" class="hover:text-blue-400">About</a></li>
+      <li><a href="#skills" class="hover:text-blue-400">Skills</a></li>
+      <li><a href="#experience" class="hover:text-blue-400">Experience</a></li>
+      <li><a href="#projects" class="hover:text-blue-400">Projects</a></li>
+      <li><a href="#education" class="hover:text-blue-400">Education</a></li>
+      <li><a href="#certifications" class="hover:text-blue-400">Certifications</a></li>
+      <li><a href="#interests" class="hover:text-blue-400">Interests</a></li>
+      <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+
+  <div class="ml-64 p-6">
+    <!-- Header -->
+    <div class="min-h-screen flex items-center justify-center p-6" id="home">
+  <header class="py-12 text-center bg-white rounded-lg shadow-md p-10  border-4 border-blue-500">
+    <h1 class="text-5xl font-bold text-gray-800">Bashee Bilal</h1>
+    <p class="text-xl mt-4 text-gray-600">Crafting engaging web experiences with passion and precision</p>
+
+    <!-- Buttons: Download Resume & View Portfolio -->
+    <div class="mt-8 flex justify-center space-x-6">
+      <!-- Download Resume Button -->
+      <a href="Bashee Bilal_resume.pdf" download class="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition">
+        Download Resume
+      </a>
+
+      <!-- View Portfolio Button -->
+      <a href="#about" class="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition">
+        View My Portfolio
+      </a>
     </div>
   </header>
+  </div>
 
-  <!-- About -->
-  <section class="py-12 px-6">
-    <div class="max-w-4xl mx-auto">
-      <h2 class="text-2xl font-bold mb-4 border-b-2 border-blue-500 inline-block">About Me</h2>
-      <p class="mt-4">Passionate and creative Front-End Web Developer pursuing a B.Tech in Computer Science & Engineering at Central University of Kashmir, currently in 6th semester. Skilled in building responsive, dynamic, and visually striking websites. Highly adaptable and driven by enthusiasm for continuous learning and growth.</p>
-    </div>
-  </section>
+    <!-- About -->
+    <section id="about" class="py-12">
+      <h2 class="text-3xl font-bold mb-6 border-b-4 border-blue-500 inline-block">About Me</h2>
+      <p class="mt-4 text-lg">Passionate and creative Front-End Web Developer pursuing a B.Tech in Computer Science & Engineering at Central University of Kashmir, currently in 6th semester. Skilled in building responsive, dynamic, and visually striking websites. Highly adaptable and driven by enthusiasm for continuous learning and growth.</p>
+    </section>
 
-  <!-- Skills -->
-  <section class="py-12 px-6 bg-gray-100">
-    <div class="max-w-4xl mx-auto">
-      <h2 class="text-2xl font-bold mb-4 border-b-2 border-blue-500 inline-block">Skills</h2>
-      <ul class="list-disc list-inside mt-4 space-y-2">
+    <!-- Skills -->
+    <section id="skills" class="py-12 bg-white rounded-lg shadow-md p-6 my-6">
+      <h2 class="text-3xl font-bold mb-6 border-b-4 border-blue-500 inline-block">Skills</h2>
+      <ul class="list-disc list-inside mt-4 space-y-2 text-lg">
         <li>Frontend Development: HTML5, CSS3, JavaScript, Tailwind CSS, Responsive Design</li>
         <li>UI/UX Design: Prototyping, Webpage Designing, Figma, Canva</li>
         <li>Version Control: Git, GitHub</li>
         <li>Soft Skills: Creativity, Attention to Detail, Team Collaboration, Adaptability, Quick Learner</li>
       </ul>
-    </div>
-  </section>
+    </section>
 
-  <!-- Experience -->
-  <section class="py-12 px-6">
-    <div class="max-w-4xl mx-auto">
-      <h2 class="text-2xl font-bold mb-4 border-b-2 border-blue-500 inline-block">Experience</h2>
-      <div class="mt-4 space-y-4">
+    <!-- Experience -->
+    <section id="experience" class="py-12">
+      <h2 class="text-3xl font-bold mb-6 border-b-4 border-blue-500 inline-block">Experience</h2>
+      <div class="mt-6 space-y-8 text-lg">
         <div>
-          <h3 class="text-xl font-semibold">Frontend Web Development Intern - Internpe</h3>
+          <h3 class="text-2xl font-semibold">Frontend Web Development Intern - Internpe</h3>
           <p class="text-gray-600">Remote | Jan 2025 - Feb 2025</p>
           <p class="mt-2">Completed four end-to-end front-end development projects, strengthening frontend optimization skills and developing visually appealing webpages.</p>
         </div>
         <div>
-          <h3 class="text-xl font-semibold">Web Designer & Developer - CodeSquad (CUK)</h3>
+          <h3 class="text-2xl font-semibold">Web Designer & Developer - CodeSquad (CUK)</h3>
           <p class="text-gray-600">2024 - Present</p>
           <p class="mt-2">Contributed to the design and development of the CodeSquad university group website with a professional and attractive design.</p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Projects -->
-  <section class="py-12 px-6 bg-gray-100">
-    <div class="max-w-4xl mx-auto">
-      <h2 class="text-2xl font-bold mb-4 border-b-2 border-blue-500 inline-block">Projects</h2>
-      <ul class="list-disc list-inside mt-4 space-y-2">
+    <!-- Projects -->
+    <section id="projects" class="py-12 bg-white rounded-lg shadow-md p-6 my-6">
+      <h2 class="text-3xl font-bold mb-6 border-b-4 border-blue-500 inline-block">Projects</h2>
+      <ul class="list-disc list-inside mt-4 space-y-3 text-lg">
         <li><a href="https://basheebilalwani.github.io/footer/" target="_blank" class="text-blue-600 hover:underline">Footer Design</a></li>
         <li><a href="https://basheebilalwani.github.io/reg_form/" target="_blank" class="text-blue-600 hover:underline">Contact Us Page</a></li>
         <li><a href="https://basheebilalwani.github.io/ecommerce/" target="_blank" class="text-blue-600 hover:underline">Ecommerce Frontend</a></li>
         <li><a href="https://basheebilalwani.github.io/todo_list/" target="_blank" class="text-blue-600 hover:underline">To-Do List App</a></li>
         <li><a href="https://basheebilalwani.github.io/calculator/" target="_blank" class="text-blue-600 hover:underline">Calculator</a></li>
       </ul>
-    </div>
-  </section>
+    </section>
 
-  <!-- Education -->
-  <section class="py-12 px-6">
-    <div class="max-w-4xl mx-auto">
-      <h2 class="text-2xl font-bold mb-4 border-b-2 border-blue-500 inline-block">Education</h2>
-      <p class="mt-4">Bachelor of Technology (B.Tech) - Computer Science and Engineering<br>Central University of Kashmir | 2022 - 2026 (Ongoing)</p>
-    </div>
-  </section>
+    <!-- Education -->
+    <section id="education" class="py-12">
+      <h2 class="text-3xl font-bold mb-6 border-b-4 border-blue-500 inline-block">Education</h2>
+      <p class="mt-4 text-lg">Bachelor of Technology (B.Tech) - Computer Science and Engineering<br>Central University of Kashmir | 2022 - 2026 (Ongoing)</p>
+    </section>
 
-  <!-- Certifications -->
-  <section class="py-12 px-6 bg-gray-100">
-    <div class="max-w-4xl mx-auto">
-      <h2 class="text-2xl font-bold mb-4 border-b-2 border-blue-500 inline-block">Certifications</h2>
-      <p class="mt-4">Front-End Web Development Internship - Internpe (2025)</p>
-    </div>
-  </section>
+    <!-- Certifications -->
+    <section id="certifications" class="py-12 bg-white rounded-lg shadow-md p-6 my-6">
+      <h2 class="text-3xl font-bold mb-6 border-b-4 border-blue-500 inline-block">Certifications</h2>
+      <p class="mt-4 text-lg">Front-End Web Development Internship - Internpe (2025)</p>
+    </section>
 
-  <!-- Interests -->
-  <section class="py-12 px-6">
-    <div class="max-w-4xl mx-auto">
-      <h2 class="text-2xl font-bold mb-4 border-b-2 border-blue-500 inline-block">Interests</h2>
-      <ul class="list-disc list-inside mt-4 space-y-2">
+    <!-- Interests -->
+    <section id="interests" class="py-12">
+      <h2 class="text-3xl font-bold mb-6 border-b-4 border-blue-500 inline-block">Interests</h2>
+      <ul class="list-disc list-inside mt-4 space-y-2 text-lg">
         <li>Web Designing and Front-End Development</li>
         <li>Creative UI/UX Innovations</li>
         <li>Exploring new web technologies</li>
         <li>Building beautiful and functional webpages for fun</li>
       </ul>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact -->
-  <footer class="bg-white py-6 mt-12 shadow-inner">
-    <div class="container mx-auto text-center">
-      <p>Email: <a href="mailto:basheebilalwani@gmail.com" class="text-blue-600 hover:underline">basheebilalwani@gmail.com</a></p>
-      <p>Phone: 6005750621</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/bashee-bilal-6984a12b2" target="_blank" class="text-blue-600 hover:underline">linkedin.com/in/bashee-bilal-6984a12b2</a></p>
-    </div>
-  </footer>
+    <!-- Contact -->
+    <footer id="contact" class="bg-white rounded-lg shadow-md p-6 my-12 text-center">
+      <h2 class="text-3xl font-bold mb-6 border-b-4 border-blue-500 inline-block">Contact</h2>
+      <p class="mt-4 text-lg">Email: <a href="mailto:basheebilalwani@gmail.com" class="text-blue-600 hover:underline">basheebilalwani@gmail.com</a></p>
+      <p class="mt-2 text-lg">Phone: 6005750621</p>
+      <p class="mt-2 text-lg">LinkedIn: <a href="https://www.linkedin.com/in/bashee-bilal-6984a12b2" target="_blank" class="text-blue-600 hover:underline">linkedin.com/in/bashee-bilal-6984a12b2</a></p>
+    </footer>
+
+  </div>
 
 </body>
 

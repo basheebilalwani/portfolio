@@ -175,7 +175,7 @@ export function Contact() {
           subject: formState.data.subject || 'Portfolio Contact Form',
           message: formState.data.message,
           from_name: 'Portfolio Contact Form',
-          to_name: 'Mohammad Akeeb',
+          to_name: 'Bashee Bilal',
         }),
       });
 
